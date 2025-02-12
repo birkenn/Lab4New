@@ -3,14 +3,14 @@ import math
 def fibonacci(n):
     num1 = 0
     num2 = 1
-    total =0
-    x=0
-    while x<n:
+    x = 0
+    while x < n:
         total = num1 + num2
         num1 = num2
         num2 = total
-        x +=1
-    return total
+        x += 1
+    return num1
+
 
 def is_prime(num):
     if num <= 1:
