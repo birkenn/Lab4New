@@ -4,7 +4,7 @@ def fibonacci(n):
     num1 = 0
     num2 = 1
     x = 0
-    while x < n:
+    while x < n-1:
         total = num1 + num2
         num1 = num2
         num2 = total
